@@ -10,4 +10,4 @@ c = int(input("digite o terceiro valor:"))
 
 #end_inputs
 
-print("{}".format((a+b+c)/3))
+print("{}".format(int(a+b+c)/3))
