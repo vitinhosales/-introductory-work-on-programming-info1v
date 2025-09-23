@@ -8,11 +8,13 @@ valor_compra = int(input("Digite o valor da sua compra:"))
 
 #end_inputs
 
-avista = int(valor_compra - valor_compra * 9/100)
-print(avista)
+a_vista = valor_compra - valor_compra * 0.09
 
-prestacao_5x = int(valor_compra/5)
-print(prestacao_5x)
+parcelado_5x = valor_compra / 5
 
-prestacao_10x = int((valor_compra + valor_compra * 17/100)/10)
-print(prestacao_10x)
+parcelado_com_juros = valor_compra + valor_compra * 0.17
+parcelado_10x = parcelado_com_juros * 0.17
+
+print("{}".format(a_vista))
+print("{}".format(parcelado_5x))
+print("{}".format(parcelado_10x))
