@@ -13,7 +13,7 @@ a_vista = valor_compra - valor_compra * 0.09
 parcelado_5x = valor_compra / 5
 
 parcelado_com_juros = valor_compra + valor_compra * 0.17
-parcelado_10x = parcelado_com_juros * 0.17
+parcelado_10x = parcelado_com_juros / 10
 
 print("{}".format(a_vista))
 print("{}".format(parcelado_5x))
